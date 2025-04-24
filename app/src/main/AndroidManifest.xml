@@ -13,6 +13,27 @@
         android:theme="@style/Theme.MobileApps"
         tools:targetApi="31">
         <activity
+            android:name=".ShoppingItemActivity"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ShoppingPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TaskItemActivity"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ToDoListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ToDoListActivity"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
             android:name=".ProfilePageActivity"
             android:exported="false" />
         <activity

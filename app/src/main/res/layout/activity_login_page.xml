@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="@color/purple_800"
+    android:background="#847468"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,10 +13,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Silahkan Login"
+        android:text="SILAHKAN LOGIN!"
         android:textSize="24sp"
         android:textColor="@color/white"
-        android:textStyle="bold"
+        android:fontFamily="@font/headingitalic"
         android:gravity="center"
         android:layout_marginBottom="2dp" />
 
@@ -96,7 +96,7 @@
                 android:layout_height="match_parent"
                 android:text="Login"
                 android:textSize="18sp"
-                android:backgroundTint="@color/purple_500"
+                android:backgroundTint="#847468"
                 android:textColor="@color/white"
                 android:layout_marginTop="15dp" />
 
@@ -106,7 +106,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Lupa Kata Sandi Anda?"
-                android:textColor="#483D8B"
+                android:textColor="#847468"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp" />
 
@@ -129,7 +129,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Daftar Sekarang"
-                    android:textColor="#483D8B"
+                    android:textColor="#847468"
                     android:layout_marginStart="5dp"
                     />
             </LinearLayout>
